@@ -31,12 +31,12 @@ const Work = () => {
                 MovieBox (React Js application)
               </span>
               <div className="pt-8 text-center">
-                <a href="https://movie-box-xd.netlify.app/" target='_blank'>
+                <a href="https://movie-box-xd.netlify.app/" target='_blank' rel='noreferrer'>
                   <button className="text-center bg-white text-gray-700 rounded px-4 py-3 m-2 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Haripriyachittari/Movie-box" target='_blank'>
+                <a href="https://github.com/Haripriyachittari/Movie-box" target='_blank' rel='noreferrer'>
                   <button className="text-center bg-white text-gray-700 rounded px-4 py-3 m-2 font-bold text-lg">
                     Code
                   </button>
@@ -53,12 +53,12 @@ const Work = () => {
                Sneaker Product page
               </span>
               <div className="pt-8 text-center">
-                <a href="https://ecommerce-productpage01.netlify.app/" target='_blank'>
+                <a href="https://ecommerce-productpage01.netlify.app/" target='_blank' rel='noreferrer'>
                   <button className="text-center bg-white text-gray-700 rounded px-4 py-3 m-2 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Haripriyachittari/Ecommerce-Product-Page"  target='_blank'>
+                <a href="https://github.com/Haripriyachittari/Ecommerce-Product-Page"  target='_blank' rel='noreferrer'>
                   <button className="text-center bg-white text-gray-700 rounded px-4 py-3 m-2 font-bold text-lg">
                     Code
                   </button>
@@ -75,12 +75,12 @@ const Work = () => {
                 Quote Generator Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://github.com/Haripriyachittari/Quote-Generator-App" target='_blank'>
+                <a href="https://github.com/Haripriyachittari/Quote-Generator-App" target='_blank' rel='noreferrer'>
                   <button className="text-center bg-white text-gray-700 rounded px-4 py-3 m-2 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://quote-a-day.netlify.app/" target='_blank'>
+                <a href="https://quote-a-day.netlify.app/" target='_blank' rel='noreferrer'>
                   <button className="text-center bg-white text-gray-700 rounded px-4 py-3 m-2 font-bold text-lg">
                     Code
                   </button>
@@ -97,12 +97,12 @@ const Work = () => {
                 SneakIT - Ecommerce landing page
               </span>
               <div className="pt-8 text-center">
-                <a href="https://sneakit-sneakit.netlify.app/" target='_blank'>
+                <a href="https://sneakit-sneakit.netlify.app/" target='_blank' rel='noreferrer'>
                   <button className="text-center bg-white text-gray-700 rounded px-4 py-3 m-2 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Haripriyachittari/SneakIT-Ecommerce-website-for-sneakers" target='_blank'>
+                <a href="https://github.com/Haripriyachittari/SneakIT-Ecommerce-website-for-sneakers" target='_blank' rel='noreferrer'>
                   <button className="text-center bg-white text-gray-700 rounded px-4 py-3 m-2 font-bold text-lg">
                     Code
                   </button>
@@ -119,12 +119,12 @@ const Work = () => {
                 Weather Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://github.com/Haripriyachittari/Weather-App" target='_blank'>
+                <a href="https://github.com/Haripriyachittari/Weather-App" target='_blank' rel='noreferrer'>
                   <button className="text-center bg-white text-gray-700 rounded px-4 py-3 m-2 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://weather-genie.netlify.app/" target='_blank'>
+                <a href="https://weather-genie.netlify.app/" target='_blank'rel='noreferrer'>
                   <button className="text-center bg-white text-gray-700 rounded px-4 py-3 m-2 font-bold text-lg">
                     Code
                   </button>
@@ -141,12 +141,12 @@ const Work = () => {
                 Sunnyside-Startup landing page
               </span>
               <div className="pt-8 text-center">
-                <a href="https://sunny-sidelp.netlify.app/" target='_blank'>
+                <a href="https://sunny-sidelp.netlify.app/" target='_blank' rel='noreferrer'>
                   <button className="text-center bg-white text-gray-700 rounded px-4 py-3 m-2 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Haripriyachittari/Sunnyside-agency-Landing-page" target='_blank'>
+                <a href="https://github.com/Haripriyachittari/Sunnyside-agency-Landing-page" target='_blank' rel='noreferrer'>
                   <button className="text-center bg-white text-gray-700 rounded px-4 py-3 m-2 font-bold text-lg">
                     Code
                   </button>
