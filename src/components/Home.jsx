@@ -21,8 +21,8 @@ const Home = () => {
         </Link> </button>
             </div>
             <div className=' md:hidden absolute bottom-2 right-0  flex flex-col gap-6 text-pink-600 px-4'>
-            <a href="https://www.linkedin.com/in/haripriya-chittari-aa1022159/"  target='_blank'><FaLinkedin size={30}/></a>
-           <a href="https://github.com/Haripriyachittari" target='_blank'><FaGithub size={30}/></a>
+            <a href="https://www.linkedin.com/in/haripriya-chittari-aa1022159/"  target='_blank' rel='noreferrer'><FaLinkedin size={30}/></a>
+           <a href="https://github.com/Haripriyachittari" target='_blank' rel='noreferrer'><FaGithub size={30}/></a>
            <a href={resume}  download ><BsFillPersonLinesFill size={30}/> </a>
   
               
