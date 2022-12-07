@@ -15,7 +15,7 @@ function App() {
       <Home/>
       <About/>
       <Skills/>
-      <Timeline/>npm
+      <Timeline/>
       <Work/>
       <Contact/>
       <Footer/>
