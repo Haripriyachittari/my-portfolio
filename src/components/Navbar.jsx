@@ -10,7 +10,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center  px-4 bg-[#0a192f] text-gray-300 shadow-lg z-50">
+    <div className="fixed w-full h-[80px] flex justify-between items-center  px-4 bg-[#0a192f] text-gray-300 shadow-xl  z-50">
       <div>
         <a href='/'><h1 className="text-4xl sm:text-5xl font-monoton text-pink-600">HP</h1></a>
       </div>
