@@ -8,8 +8,8 @@ import 'react-vertical-timeline-component/style.min.css'
 const Timeline = () => {
   return (
     <div className=" w-full md:h-screen bg-[#0a192f] text-gray-300 ">
-        <div className="max-w-[1000px]  mx-auto p-6 w-full flex flex-col justify-center h-full">
-          <div className="pb-4 ">
+        <div className="max-w-[1000px]  mx-auto p-4 w-full flex flex-col justify-center h-full">
+          <div >
           <p className="text-4xl font-bold inline border-b-4 border-pink-600">
             Education & Experience
           </p>
