@@ -19,8 +19,8 @@ const Timeline = () => {
            
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: '#0a193f', color: 'rgb(209 213 219)' }}
-    contentArrowStyle={{ borderRight: '7px solid  #0a193f' }}
+    contentStyle={{ background: 'rgb(29 78 216)', color: 'rgb(209 213 200)' }}
+    contentArrowStyle={{ borderRight: '7px solid rgb(29 78 216)' }}
     date="2020 - present"
     iconStyle={{ background: 'rgb(219 39 119)', color: 'rgb(209 213 219)' }}
     icon={<HiOutlineDesktopComputer/>}
@@ -33,8 +33,8 @@ const Timeline = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: '#0a193f', color: 'rgb(209 213 219)' }}
-    contentArrowStyle={{ borderRight: '7px solid  #0a193f' }}
+    contentStyle={{ background: 'rgb(29 78 216)', color: 'rgb(209 213 219)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(29 78 216)' }}
     date="2016 - 2020"
     iconStyle={{ background: 'rgb(219 39 119)', color: 'rgb(209 213 219)' }}
     icon={<FaUserGraduate/>}>
@@ -46,8 +46,8 @@ const Timeline = () => {
          </VerticalTimelineElement>
          <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: '#0a193f', color: 'rgb(209 213 219)' }}
-    contentArrowStyle={{ borderRight: '7px solid  #0a193f' }}
+    contentStyle={{ background: 'rgb(29 78 216)', color: 'rgb(209 213 219)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(29 78 216)' }}
     date="2014 - 2016"
     iconStyle={{ background: 'rgb(219 39 119)', color: 'rgb(209 213 219)' }}
     icon={<FaGraduationCap/>}>

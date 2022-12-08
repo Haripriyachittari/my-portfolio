@@ -9,7 +9,7 @@ const Footer = () => {
          <div className='flex justify-center items-center gap-8 my-2'>
          <a href="https://www.linkedin.com/in/haripriya-chittari-aa1022159/"  target='_blank' rel='noreferrer'><FaLinkedin size={25}/></a>
          <a href="https://github.com/Haripriyachittari" target='_blank' rel='noreferrer' ><FaGithub size={25}/></a>
-          <a href="/" target="_blank"><HiOutlineMail size={25}/></a>
+          <a href='mailto:hpvarma09@gmail.com' target='_blank'><HiOutlineMail size={25}/></a>
          </div>
         <p>@2022 built by <span className='underline text-pink-600'>Haripriya Chittari</span>. all rights reserved</p>
     </div>
