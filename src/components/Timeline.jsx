@@ -19,8 +19,8 @@ const Timeline = () => {
            
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(29 78 216)', color: 'rgb(209 213 200)' }}
-    contentArrowStyle={{ borderRight: '7px solid rgb(29 78 216)' }}
+    contentStyle={{ background: '#0a192f', color: 'rgb(209 213 200)',boxShadow:'0 0 3px 3px rgb(29 78 216)' }}
+    contentArrowStyle={{ borderRight: '10px solid rgb(29 78 216)' }}
     date="2020 - present"
     iconStyle={{ background: 'rgb(219 39 119)', color: 'rgb(209 213 219)' }}
     icon={<HiOutlineDesktopComputer/>}
@@ -33,10 +33,10 @@ const Timeline = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(29 78 216)', color: 'rgb(209 213 219)' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(29 78 216)' }}
+    contentStyle={{ background: '#0a192f', color: 'rgb(209 213 219)',boxShadow:'0 0 3px 3px rgb(29 78 216)' }}
+    contentArrowStyle={{ borderRight: '10px solid  rgb(29 78 216)' }}
     date="2016 - 2020"
-    iconStyle={{ background: 'rgb(219 39 119)', color: 'rgb(209 213 219)' }}
+    iconStyle={{ background: 'rgb(219 39 119)', color: 'rgb(209 213 219)', }}
     icon={<FaUserGraduate/>}>
     <h3 className="vertical-timeline-element-title font-bold">National Institute of Engineering (NIE)</h3>
     <h4 className="vertical-timeline-element-subtitle">Mysore</h4>
@@ -46,8 +46,8 @@ const Timeline = () => {
          </VerticalTimelineElement>
          <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(29 78 216)', color: 'rgb(209 213 219)' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(29 78 216)' }}
+    contentStyle={{ background: '#0a192f', color: 'rgb(209 213 219)' ,boxShadow:'0 0 3px 3px rgb(29 78 216)'}}
+    contentArrowStyle={{ borderRight: '10px solid  rgb(29 78 216)' }}
     date="2014 - 2016"
     iconStyle={{ background: 'rgb(219 39 119)', color: 'rgb(209 213 219)' }}
     icon={<FaGraduationCap/>}>
