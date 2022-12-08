@@ -15,7 +15,7 @@ const Work = () => {
           <p className="text-4xl font-bold inline border-b-4 border-pink-600">
             Work
           </p>
-          <p className="py-1">
+          <p className="pt-3">
             Check out some of my recent work
             <span className="text-pink-600">...</span>
           </p>
@@ -75,12 +75,12 @@ const Work = () => {
                 Quote Generator Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://github.com/Haripriyachittari/Quote-Generator-App" target='_blank' rel='noreferrer'>
+                <a href="https://quote-a-day.netlify.app/" target='_blank' rel='noreferrer'>
                   <button className="text-center bg-white text-gray-700 rounded px-4 py-3 m-2 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://quote-a-day.netlify.app/" target='_blank' rel='noreferrer'>
+                <a href="https://github.com/Haripriyachittari/Quote-Generator-App" target='_blank' rel='noreferrer'>
                   <button className="text-center bg-white text-gray-700 rounded px-4 py-3 m-2 font-bold text-lg">
                     Code
                   </button>
