@@ -119,12 +119,12 @@ const Work = () => {
                 Weather Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://github.com/Haripriyachittari/Weather-App" target='_blank' rel='noreferrer'>
+                <a href="https://weather-genie.netlify.app/" target='_blank' rel='noreferrer'>
                   <button className="text-center bg-white text-gray-700 rounded px-4 py-3 m-2 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://weather-genie.netlify.app/" target='_blank'rel='noreferrer'>
+                <a href="https://github.com/Haripriyachittari/Weather-App" target='_blank'rel='noreferrer'>
                   <button className="text-center bg-white text-gray-700 rounded px-4 py-3 m-2 font-bold text-lg">
                     Code
                   </button>
