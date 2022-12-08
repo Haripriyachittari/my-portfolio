@@ -16,7 +16,7 @@ const Home = () => {
             <h2 className='text-3xl sm:text-5xl font-bold text-pink-600 mb-2'>
              <Typewriter
                  options={{
-                 strings: ["Full Stack Developer."],
+                 strings: ["Full Stack Developer"],
                  autoStart: true,
                  delay:180,
                  loop: true,
