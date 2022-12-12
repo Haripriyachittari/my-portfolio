@@ -8,6 +8,7 @@ import Timeline from "./components/Timeline";
 import Work from "./components/Work";
 
 
+
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
       <Skills/>
       <Timeline/>
       <Work/>
+      
       <Contact/>
       <Footer/>
     </div>
