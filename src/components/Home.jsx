@@ -29,7 +29,7 @@ const Home = () => {
 
             <p className='text-[#8892b8] py-4 max-w-[700px] mb-4'>I'm a full stack developer specialized in building (ocassionally designing) exceptional digital experiences. Currently focused on building beautiful and fully responsive websites.</p>
             <div>
-                <button className='text-white group flex items-center  px-6 py-3 sm:px-6 sm:py-4 border-2 bg-pink-600 border-pink-600 hover:bg-transparent hover:text-pink-600 rounded-xl'><Link to="work" smooth={true} duration={600} className='px-2 flex'>
+                <button className='text-white group flex items-center  px-2  md:text-xl py-2  md:py-3 border-2 bg-pink-600 border-pink-600 hover:bg-transparent hover:text-pink-600 rounded-xl'><Link to="work" smooth={true} duration={600} className='px-2 flex'>
                 View Work<span className='group-hover:rotate-90 duration-300'><HiArrowNarrowRight size={25} className='ml-2' />
                     </span>
         </Link> </button>
