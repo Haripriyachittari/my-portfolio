@@ -13,7 +13,7 @@ const Work = () => {
   return (
     <div name="work" className=" w-full md:h-screen bg-[#0a192f] text-gray-300 ">
       <div className="max-w-[1000px]  mx-auto p-4 w-full flex flex-col justify-center h-full">
-        <div className="pb-8 ">
+        <div className="pb-6 ">
           <p className="text-4xl font-bold inline border-b-4 border-pink-600">
             Work
           </p>
@@ -31,7 +31,7 @@ const Work = () => {
             {/* Hovereffect */}
             <div className="opacity-0 group-hover:opacity-100 text-center content-div rounded-md">
               <div className="flex flex-col">
-              <span className="text-xl font-bold text-gray-300 m-4">
+              <span className="text-xl font-bold text-gray-300 mt-4">
                 CryptoZen - A Cryptocurrency tracker
               </span>
               <div className="flex gap-4 text-xl items-center justify-center mt-2">
@@ -40,14 +40,14 @@ const Work = () => {
                 <SiFirebase size={30} className='text-yellow-500'/>
               </div>
               </div>
-              <div className="pt-8 text-center">
+              <div className="pt-3 text-center">
                 <a href="https://cryptozen-rt.netlify.app" target='_blank' rel='noreferrer'>
-                  <button className="text-center border border-pink-600 text-pink-600 rounded-xl px-4 hover:bg-pink-600 hover:text-gray-300 py-3 m-2 font-bold text-lg">
+                  <button className="text-center border border-pink-600 text-pink-600 rounded-xl px-4 hover:bg-pink-600 hover:text-gray-300 py-2 m-2 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/Haripriyachittari/Cryptozen" target='_blank' rel='noreferrer'>
-                  <button className="text-center border border-pink-600 text-pink-600 rounded-xl px-4 hover:bg-pink-600 hover:text-gray-300 py-3 m-2 font-bold text-lg">
+                  <button className="text-center border border-pink-600 text-pink-600 rounded-xl px-4 hover:bg-pink-600 hover:text-gray-300 py-2 m-2 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -61,7 +61,7 @@ const Work = () => {
             {/* Hovereffect */}
             <div className="opacity-0 group-hover:opacity-100 text-center content-div rounded-md">
               <div className="flex flex-col">
-              <span className="text-xl font-bold text-gray-300 m-4">
+              <span className="text-xl font-bold text-gray-300 mt-4">
                 MovieBox - A Movie Search Engine
               </span>
               <div className="flex gap-4 text-xl items-center justify-center mt-2">
@@ -70,14 +70,14 @@ const Work = () => {
                 <TbApi size={30} className='text-yellow-500'/>
               </div>
               </div>
-              <div className="pt-8 text-center">
+              <div className="pt-3 text-center">
                 <a href="https://movie-box-xd.netlify.app/" target='_blank' rel='noreferrer'>
-                  <button className="text-center border border-pink-600 text-pink-600  rounded-xl hover:text-gray-300 hover:bg-pink-600 px-4 py-3 m-2 font-bold text-lg">
+                  <button className="text-center border border-pink-600 text-pink-600  rounded-xl hover:text-gray-300 hover:bg-pink-600 px-4 py-2 m-2 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/Haripriyachittari/Movie-box" target='_blank' rel='noreferrer'>
-                  <button className="text-center  border border-pink-600 text-pink-600 rounded-xl hover:text-gray-300 hover:bg-pink-600  px-4 py-3 m-2 font-bold text-lg">
+                  <button className="text-center  border border-pink-600 text-pink-600 rounded-xl hover:text-gray-300 hover:bg-pink-600  px-4 py-2 m-2 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -90,7 +90,7 @@ const Work = () => {
             {/* Hovereffect */}
             <div className="opacity-0 group-hover:opacity-100 text-center content-div rounded-md">
               <div className="flex flex-col">
-              <span className="text-xl font-bold text-gray-300  m-4">
+              <span className="text-xl font-bold text-gray-300  mt-4">
                Sneakers - A Product landing page
               </span>
               <div className="flex gap-4 text-xl items-center justify-center mt-2">
@@ -99,14 +99,14 @@ const Work = () => {
                 <SiJavascript size={30} className='text-yellow-500'/>
               </div>
               </div>
-              <div className="pt-8 text-center">
+              <div className="pt-3 text-center">
                 <a href="https://ecommerce-productpage01.netlify.app/" target='_blank' rel='noreferrer'>
-                  <button className="text-center border border-pink-600 text-pink-600 rounded-xl hover:bg-pink-600  hover:text-gray-300 px-4 py-3 m-2 font-bold text-lg">
+                  <button className="text-center border border-pink-600 text-pink-600 rounded-xl hover:bg-pink-600  hover:text-gray-300 px-4 py-2 m-2 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/Haripriyachittari/Ecommerce-Product-Page"  target='_blank' rel='noreferrer'>
-                  <button className="text-center border border-pink-600 text-pink-600 rounded-xl hover:bg-pink-600  hover:text-gray-300 px-4 py-3 m-2 font-bold text-lg">
+                  <button className="text-center border border-pink-600 text-pink-600 rounded-xl hover:bg-pink-600  hover:text-gray-300 px-4 py-2 m-2 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -119,7 +119,7 @@ const Work = () => {
             {/* Hovereffect */}
             <div className="opacity-0 group-hover:opacity-100 text-center content-div rounded-md">
               <div className="flex flex-col">
-              <span className="text-xl font-bold text-gray-300 m-4 ">
+              <span className="text-xl font-bold text-gray-300 mt-4 ">
                 Quote A Day - Quote generator Application
               </span>
               <div className="flex gap-4 text-xl items-center justify-center mt-2">
@@ -129,14 +129,14 @@ const Work = () => {
               </div>
               
               </div>
-              <div className="pt-8 text-center">
+              <div className="pt-3 text-center">
                 <a href="https://quote-a-day.netlify.app/" target='_blank' rel='noreferrer'>
-                  <button className="text-center border border-pink-600 text-pink-600 rounded-xl  hover:text-gray-300 hover:bg-pink-600 px-4 py-3 m-2 font-bold text-lg">
+                  <button className="text-center border border-pink-600 text-pink-600 rounded-xl  hover:text-gray-300 hover:bg-pink-600 px-4 py-2 m-2 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/Haripriyachittari/Quote-Generator-App" target='_blank' rel='noreferrer'>
-                  <button className="text-center border border-pink-600 text-pink-600 rounded-xl hover:text-gray-300 hover:bg-pink-600  px-4 py-3 m-2 font-bold text-lg">
+                  <button className="text-center border border-pink-600 text-pink-600 rounded-xl hover:text-gray-300 hover:bg-pink-600  px-4 py-2 m-2 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -149,7 +149,7 @@ const Work = () => {
             {/* Hovereffect */}
             <div className="opacity-0 group-hover:opacity-100 text-center content-div rounded-md">
               <div className="flex flex-col">
-              <span className = "text-xl font-bold text-white m-4 ">
+              <span className = "text-xl font-bold text-white mt-4 ">
                 SneakIT - Ecommerce landing page
               </span>
               <div className="flex gap-4 text-xl items-center justify-center mt-2">
@@ -158,14 +158,14 @@ const Work = () => {
                 <SiJavascript size={30} className='text-yellow-500'/>
               </div>
               </div>
-              <div className="pt-8 text-center">
+              <div className="pt-3 text-center">
                 <a href="https://sneakit-sneakit.netlify.app/" target='_blank' rel='noreferrer'>
-                  <button className="text-center border border-pink-600 text-pink-600 rounded-xl hover:bg-pink-600 hover:text-gray-300 px-4 py-3 m-2 font-bold text-lg">
+                  <button className="text-center border border-pink-600 text-pink-600 rounded-xl hover:bg-pink-600 hover:text-gray-300 px-4 py-2 m-2 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/Haripriyachittari/SneakIT-Ecommerce-website-for-sneakers" target='_blank' rel='noreferrer'>
-                  <button className="text-center border border-pink-600 text-pink-600 rounded-xl hover:bg-pink-600 hover:text-gray-300 px-4 py-3 m-2 font-bold text-lg">
+                  <button className="text-center border border-pink-600 text-pink-600 rounded-xl hover:bg-pink-600 hover:text-gray-300 px-4 py-2 m-2 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -178,7 +178,7 @@ const Work = () => {
             {/* Hovereffect */}
             <div className="opacity-0 group-hover:opacity-100 text-center content-div rounded-md">
               <div className="flex flex-col">
-              <span className="text-xl font-bold text-white m-4 ">
+              <span className="text-xl font-bold text-white mt-4 ">
                 Weather Genie - A Weather Application 
               </span>
               <div className="flex gap-4 text-xl items-center justify-center mt-2">
@@ -189,14 +189,14 @@ const Work = () => {
 
               </div>
               </div>
-              <div className="pt-8 text-center">
+              <div className="pt-3 text-center">
                 <a href="https://weather-genie.netlify.app/" target='_blank' rel='noreferrer'>
-                  <button className="text-center border border-pink-600 text-pink-600 rounded-xl  hover:bg-pink-600  hover:text-gray-300 px-4 py-3 m-2 font-bold text-lg">
+                  <button className="text-center border border-pink-600 text-pink-600 rounded-xl  hover:bg-pink-600  hover:text-gray-300 px-4 py-2 m-2 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/Haripriyachittari/Weather-App" target='_blank'rel='noreferrer'>
-                  <button className="text-center border border-pink-600 text-pink-600   rounded-xl  hover:bg-pink-600  hover:text-gray-300  px-4 py-3 m-2 font-bold text-lg">
+                  <button className="text-center border border-pink-600 text-pink-600   rounded-xl  hover:bg-pink-600  hover:text-gray-300  px-4 py-2 m-2 font-bold text-lg">
                     Code
                   </button>
                 </a>
