@@ -66,29 +66,33 @@ const Navbar = () => {
         </Link></li>
       </ul>
       {/* socials */}
-      <div className=" hidden lg:flex flex-col fixed top-[35%] left-0">
+      <div className=" hidden lg:flex flex-col fixed bottom-[2%] right-0">
         <ul>
-          <li className=" mb-1 flex w-[160px] h-[60px] justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-800 rounded font-bold">
+          <li className="mb-4 flex justify-center items-center rounded-full  drop-shadow-xl">
           <a href="https://www.linkedin.com/in/haripriya-chittari-aa1022159/"  target='_blank' rel="noreferrer" className=" flex justify-between items-center w-full text-gray-300">
-          Linkedin<FaLinkedin size={30}/>
+          <FaLinkedin size={40} className='text-blue-700  hover:shadow-[0_0_20px_0_#2563eb] hover:scale-110 rounded-md '/>
         </a>
           </li>
-          <li className=" mb-1 flex w-[160px] h-[60px] justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] rounded font-bold">
+          <li className=" mb-4">
           <a href="https://github.com/Haripriyachittari" target='_blank' rel="noreferrer" className="flex justify-between items-center w-full text-gray-300">
-          Github<FaGithub size={30}/>
+          <FaGithub size={40} className='text-gray-400 hover:shadow-[0_0_20px_0_#d4d4d4] hover:scale-110 rounded-full '/>
         </a>
           </li>
-          <li className=" mb-1 flex w-[160px] h-[60px] justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#34a4b8] rounded font-bold">
+          <li className=" mb-4 bg-transparent">
          <Link  to ="contact" smooth={true} duration={600} className='flex justify-between items-center w-full text-gray-300 '>
-          Email<HiOutlineMail size={30}/>
+         <HiOutlineMail size={40} className='text-green-300 hover:shadow-[0_0_20px_0_#6ee7b7] hover:scale-110 rounded-md '/>
         </Link>
           
         
           </li>
-          <li className=" mb-1 flex w-[160px] h-[60px] justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-orange-700 rounded font-bold">
+          <li className="mb-4 ">
           <a href={resume}  download className=" flex justify-between items-center w-full text-gray-300 ">
-          Resume<BsFillPersonLinesFill size={30}/>
+          <BsFillPersonLinesFill size={40} className='text-orange-600 animate-bounce hover:shadow-[0_0_20px_0_#ea580c] hover:scale-110 rounded-md '/>
+          
         </a>
+          </li>
+          <li>
+          
           </li>
         </ul>
         
