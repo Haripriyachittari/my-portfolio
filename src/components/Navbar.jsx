@@ -75,7 +75,7 @@ const Navbar = () => {
           </li>
           <li className=" mb-4">
           <a href="https://github.com/Haripriyachittari" target='_blank' rel="noreferrer" className="flex justify-between items-center w-full text-gray-300">
-          <FaGithub size={40} className='text-gray-400 hover:shadow-[0_0_20px_0_#d4d4d4] hover:scale-110 rounded-full '/>
+          <FaGithub size={40} className='text-gray-300 hover:shadow-[0_0_20px_0_#d4d4d4] hover:scale-110 rounded-full '/>
         </a>
           </li>
           <li className=" mb-4 bg-transparent">
