@@ -16,11 +16,11 @@ function App() {
       <motion.div 
       initial={
         {
-          height:"100%"
+          opacity:"100%"
         }
       }
       animate={{
-        height:"0%",
+        opacity:"0%",
         transition:{ease:[0.455,0.03,0.515,0.955],duration:3.2}
       }}
       
