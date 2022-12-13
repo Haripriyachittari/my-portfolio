@@ -12,7 +12,9 @@ const Home = () => {
         {/* Container */}
         <div className='flex flex-col max-w-[1000px] h-full mx-auto px-8 justify-center '>
             <p className='text-pink-600 sm:mb-2'>Hi, my name is</p>
-            <h1 className='text-5xl sm:text-7xl font-bold text-[#dde5fa] mb-4 '>Haripriya Chittari</h1>
+            <h1 className='text-5xl sm:text-7xl font-bold text-[#dde5fa] mb-4'>Haripriya Chittari <span className='text-4xl md:text-5xl animate-wave absolute'>👋</span> </h1>
+            
+           
             <h2 className='text-3xl sm:text-5xl font-bold text-pink-600 mb-2'>
              <Typewriter
                  options={{
