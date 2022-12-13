@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Loader = () => {
   return (
-    <div>
+    <div >
         <motion.div 
       initial={
         {
