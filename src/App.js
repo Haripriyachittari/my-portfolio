@@ -34,7 +34,7 @@ function App() {
         }
         animate={{
           opacity:"0%",
-          transition:{ease:[0.455,0.03,0.515,0.955],duration:2.9}
+          transition:{ease:[0.455,0.03,0.515,0.955],duration:2.6}
         }}
 
 
