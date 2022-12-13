@@ -66,7 +66,7 @@ const Navbar = () => {
         </Link></li>
       </ul>
       {/* socials */}
-      <div className=" hidden lg:flex flex-col fixed bottom-[2%] right-0">
+      <div className=" hidden lg:flex flex-col fixed bottom-[9%] right-0">
         <ul>
           <li className="mb-4 flex justify-center items-center rounded-full  drop-shadow-xl">
           <a href="https://www.linkedin.com/in/haripriya-chittari-aa1022159/"  target='_blank' rel="noreferrer" className=" flex justify-between items-center w-full text-gray-300">
