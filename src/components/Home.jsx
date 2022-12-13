@@ -38,7 +38,7 @@ const Home = () => {
             </div>
             <div className=' md:hidden absolute bottom-6 right-0  flex flex-col gap-4  px-4'>
             <a href="https://www.linkedin.com/in/haripriya-chittari-aa1022159/"  target='_blank' rel='noreferrer' className=' text-blue-700'><FaLinkedin size={30}/></a>
-           <a href="https://github.com/Haripriyachittari" target='_blank' rel='noreferrer' className='text-gray-400'><FaGithub size={30}/></a>
+           <a href="https://github.com/Haripriyachittari" target='_blank' rel='noreferrer' className='text-gray-300'><FaGithub size={30}/></a>
            <a href={resume}  download className='animate-bounce text-orange-600' ><BsFillPersonLinesFill size={30}/> </a>
   
               
