@@ -1,17 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import { Link } from "react-scroll";
 import { FaLinkedin,FaGithub } from "react-icons/fa";
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import resume from '../assets/HARIPRIYA_CV_Resume.pdf';
 import Typewriter from 'typewriter-effect';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 const Home = () => {
+  useEffect(()=>{
+   Aos.init({duration:2000})
+  },[])
   return (
     <div  name ='home' className='w-full h-screen bg-[#0a192f]'>
         {/* Container */}
-        <div className='flex flex-col max-w-[1000px] h-full mx-auto px-8 justify-center '>
-            <p className='text-pink-600 sm:mb-2'>Hi, my name is</p>
+        <div data-aos="fade-up" className='flex flex-col max-w-[1000px] h-full mx-auto px-8 justify-center '>
+            <p  className='text-pink-600 sm:mb-2'>Hi, my name is</p>
             <h1 className='text-5xl sm:text-7xl font-bold text-[#dde5fa] mb-4'>Haripriya Chittari <span className='text-4xl md:text-5xl animate-wave absolute'>👋</span> </h1>
             
            
@@ -36,7 +41,7 @@ const Home = () => {
                     </span>
         </Link> </button>
             </div>
-            <div className=' md:hidden absolute bottom-6 right-0  flex flex-col gap-4  px-4'>
+            <div className=' md:hidden absolute bottom-12 right-0  flex flex-col gap-4  px-4'>
             <a href="https://www.linkedin.com/in/haripriya-chittari-aa1022159/"  target='_blank' rel='noreferrer' className=' text-blue-700'><FaLinkedin size={30}/></a>
            <a href="https://github.com/Haripriyachittari" target='_blank' rel='noreferrer' className='text-gray-300'><FaGithub size={30}/></a>
            <a href={resume}  download className='animate-bounce text-orange-600' ><BsFillPersonLinesFill size={30}/> </a>

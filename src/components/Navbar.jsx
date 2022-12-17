@@ -12,26 +12,26 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center  px-4 bg-[#0a192f] text-gray-300 shadow-xl  z-50">
       <div>
-        <a href='/'><h1 className="text-4xl sm:text-5xl font-monoton text-pink-600">HP</h1></a>
+        <a href='/'><h1 className="text-4xl sm:text-5xl font-monoton text-pink-600 hover:scale-110">HP</h1></a>
       </div>
       {/* Menu */}
 
       <ul className=" hidden md:flex font-bold md:text-xl">
         <li >
-        <Link  to="home" smooth={true} duration={500}  className='hover:border-b-2 inline py-2 border-pink-600'>
+        <Link  to="home" smooth={true} duration={500}  className='hover:border-b-[4px] inline py-2 border-pink-600'>
           Home
         </Link>
           </li>
-        <li> <Link  to="about" smooth={true} duration={500} className='hover:border-b-2 inline py-2 border-pink-600'>
+        <li> <Link  to="about" smooth={true} duration={500} className='hover:border-b-[4px] inline py-2 border-pink-600'>
           About
         </Link></li>
-        <li> <Link  to="skills" smooth={true} duration={500} className='hover:border-b-2 inline py-2 border-pink-600'>
+        <li> <Link  to="skills" smooth={true} duration={500} className='hover:border-b-[4px] inline py-2 border-pink-600'>
           Skills
         </Link></li>
-        <li> <Link  to="work" smooth={true} duration={500} className='hover:border-b-2 inline py-2 border-pink-600'>
+        <li> <Link  to="work" smooth={true} duration={500} className='hover:border-b-[4px] inline py-2 border-pink-600'>
          Work
         </Link></li>
-        <li> <Link  to="contact" smooth={true} duration={500} className='hover:border-b-2 inline py-2 border-pink-600'>
+        <li> <Link  to="contact" smooth={true} duration={500} className='hover:border-b-[4px] inline py-2 border-pink-600'>
           Contact
         </Link></li>
       </ul>

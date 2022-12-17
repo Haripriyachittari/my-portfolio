@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {SiFirebase,SiTailwindcss,SiReact,SiHtml5,SiCss3,SiJavascript} from 'react-icons/si'
 import {TbApi} from 'react-icons/tb'
 import movie from '../assets/movie-box.png'
@@ -7,13 +7,17 @@ import sneakerpp from '../assets/sneaker-product.png'
 import weather from '../assets/weather-app.png'
 import  sneakerwb from '../assets/sneakit.png'
 import crypto from '../assets/Screenshot_16.png'
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Work = () => {
+  useEffect(()=>{
+    Aos.init({duration:2000})
+   },[])
   return (
     <div name="work" className=" w-full md:h-screen bg-[#0a192f] text-gray-300 ">
       <div className="max-w-[1000px]  mx-auto p-4 w-full flex flex-col justify-center h-full">
-        <div className="pb-6 ">
+        <div className="pb-6 " data-aos='slide-right'  >
           <p className="text-4xl font-bold inline border-b-4 border-pink-600">
             Work
           </p>
@@ -26,11 +30,11 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Card */}
 
-          <div style={{ backgroundImage: `url(${crypto})` }}
+          <div style={{ backgroundImage: `url(${crypto})` }} data-aos='fade-up'
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto ">
             {/* Hovereffect */}
             <div className="opacity-0 group-hover:opacity-100 text-center content-div rounded-md">
-              <div className="flex flex-col">
+              <div className="flex flex-col" >
               <span className="text-xl font-bold text-gray-300 m-4">
                 CryptoZen - A Cryptocurrency tracker
               </span>
@@ -56,7 +60,7 @@ const Work = () => {
           </div>
 
 
-          <div style={{ backgroundImage: `url(${movie})` }}
+          <div style={{ backgroundImage: `url(${movie})` }} data-aos='fade-up' data-aos-delay='200'
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
             {/* Hovereffect */}
             <div className="opacity-0 group-hover:opacity-100 text-center content-div rounded-md">
@@ -85,7 +89,7 @@ const Work = () => {
             </div>
           </div>
 
-          <div style={{ backgroundImage: `url(${sneakerpp})` }}
+          <div style={{ backgroundImage: `url(${sneakerpp})` }} data-aos='fade-up' data-aos-delay='300'
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
             {/* Hovereffect */}
             <div className="opacity-0 group-hover:opacity-100 text-center content-div rounded-md">
@@ -114,7 +118,7 @@ const Work = () => {
             </div>
           </div>
 
-          <div style={{ backgroundImage: `url(${quote})` }}
+          <div style={{ backgroundImage: `url(${quote})` }} data-aos='fade-up' 
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
             {/* Hovereffect */}
             <div className="opacity-0 group-hover:opacity-100 text-center content-div rounded-md">
@@ -144,7 +148,7 @@ const Work = () => {
             </div>
           </div>
 
-          <div style={{ backgroundImage: `url(${sneakerwb})` }}
+          <div style={{ backgroundImage: `url(${sneakerwb})` }} data-aos='fade-up' data-aos-delay='200'
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
             {/* Hovereffect */}
             <div className="opacity-0 group-hover:opacity-100 text-center content-div rounded-md">
@@ -173,7 +177,7 @@ const Work = () => {
             </div>
           </div>
 
-          <div style={{ backgroundImage: `url(${weather})` }}
+          <div style={{ backgroundImage: `url(${weather})` }} data-aos='fade-up' data-aos-delay='300'
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
             {/* Hovereffect */}
             <div className="opacity-0 group-hover:opacity-100 text-center content-div rounded-md">
