@@ -12,8 +12,9 @@ import movie from "../assets/movie-box.png";
 import quote from "../assets/quote.png";
 import sneakerpp from "../assets/sneaker-product.png";
 import weather from "../assets/weather-app.png";
-import sneakerwb from "../assets/sneakit.png";
+
 import crypto from "../assets/Screenshot_16.png";
+import shopnow from "../assets/Screenshot_20.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -53,7 +54,7 @@ const Work = () => {
                 </span>
                 <div className="flex gap-4 text-xl items-center justify-center mt-2">
                   <SiReact size={30} className="text-blue-500" />
-                  <SiTailwindcss size={30} className="text-blue-700" />
+                  <SiTailwindcss size={30} className="text-blue-400" />
                   <SiFirebase size={30} className="text-yellow-500" />
                 </div>
               </div>
@@ -80,7 +81,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${sneakerwb})` }}
+            style={{ backgroundImage: `url(${shopnow})` }}
             data-aos="fade-up"
             data-aos-delay="200"
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -93,13 +94,13 @@ const Work = () => {
                 </span>
                 <div className="flex gap-4 text-xl items-center justify-center mt-2">
                   <SiReact size={30} className="text-blue-500" />
-                  <SiTailwindcss size={30} className="text-blue-700" />
+                  <SiTailwindcss size={30} className="text-blue-400" />
                   Context <TbApi size={30} className="text-yellow-500" />
                 </div>
               </div>
               <div className="pt-2 text-center">
                 <a
-                  href="https://sneakit-sneakit.netlify.app/"
+                  href="https://shopnow-ecommerce-react.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -108,7 +109,7 @@ const Work = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/Haripriyachittari/SneakIT-Ecommerce-website-for-sneakers"
+                  href="https://github.com/Haripriyachittari/shopnow-ecommerce-react"
                   target="_blank"
                   rel="noreferrer"
                 >

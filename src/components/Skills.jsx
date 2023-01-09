@@ -4,10 +4,13 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
-import mongodb from "../assets/mongo.png";
+
 import java from "../assets/java.png";
 import sql from "../assets/sql.png";
 import git from "../assets/github.png";
+import redux from "../assets/redux-logo.png";
+import figma from "../assets/figma.png";
+import bootstrap from "../assets/bootstrap.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -56,6 +59,10 @@ const Skills = () => {
             <img className="w-10 h-10 mx-3" src={react} alt="react icon" />
             <p className="my-2">REACT</p>
           </div>
+          <div className=" shadow-md shadow-[#040c16] flex hover:scale-110 duration-500 rounded-md p-2 ">
+            <img className="w-10 h-10 mx-3 " src={redux} alt="mongodb icon" />
+            <p className="my-2">REDUX</p>
+          </div>
 
           <div className=" shadow-md shadow-[#040c16] flex hover:scale-110 duration-500 rounded-md p-2 ">
             <img
@@ -63,7 +70,15 @@ const Skills = () => {
               src={tailwind}
               alt="tailwind icon"
             />
-            <p className="my-2">TAILWIND</p>
+            <p className="my-2">TAILWIND CSS</p>
+          </div>
+          <div className=" shadow-md shadow-[#040c16] flex hover:scale-110 duration-500 rounded-md p-2 ">
+            <img
+              className="w-10 h-10 mx-3 "
+              src={bootstrap}
+              alt="firebase icon"
+            />
+            <p className="my-2">BOOTSTRAP</p>
           </div>
 
           <div className=" shadow-md shadow-[#040c16] flex hover:scale-110 duration-500 rounded-md p-2 ">
@@ -78,22 +93,12 @@ const Skills = () => {
 
           <div className=" shadow-md shadow-[#040c16] flex hover:scale-110 duration-500 rounded-md p-2 ">
             <img className="w-10 h-10 mx-3 " src={git} alt="mongodb icon" />
-            <p className="my-2">Git/Github</p>
+            <p className="my-2">GIT/GITHUB</p>
           </div>
 
           <div className=" shadow-md shadow-[#040c16] flex hover:scale-110 duration-500 rounded-md p-2 ">
-            <img className="w-10 h-10 mx-3 " src={java} alt="firebase icon" />
-            <p className="my-2">JAVA</p>
-          </div>
-
-          <div className=" shadow-md shadow-[#040c16] flex hover:scale-110 duration-500 rounded-md p-2 ">
-            <img className="w-10 h-10 mx-3 " src={mongodb} alt="mongodb icon" />
-            <p className="my-2">MONGODB</p>
-          </div>
-
-          <div className=" shadow-md shadow-[#040c16] flex hover:scale-110 duration-500 rounded-md p-2 ">
-            <img className="w-10 h-10 mx-3 " src={java} alt="firebase icon" />
-            <p className="my-2">JAVA</p>
+            <img className="w-10 h-10 mx-3 " src={figma} alt="firebase icon" />
+            <p className="my-2">FIGMA</p>
           </div>
         </div>
       </div>
