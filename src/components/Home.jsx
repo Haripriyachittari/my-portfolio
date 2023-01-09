@@ -3,7 +3,7 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import resume from "../assets/HARIPRIYA_CV_Resume.pdf";
+import resume from "../assets/Haripriya_Resume1.pdf";
 import Typewriter from "typewriter-effect";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -37,9 +37,10 @@ const Home = () => {
         </h2>
 
         <p className="text-[#8892b8] py-4 max-w-[700px] mb-4">
-          I'm a full stack developer specialized in building (ocassionally
-          designing) exceptional digital experiences. Currently focused on
-          building beautiful and fully responsive websites.
+          I'm a software developer with more than two years of experience
+          specialized in building (ocassionally designing) exceptional digital
+          experiences. Currently focused on building beautiful and fully
+          responsive websites.
         </p>
         <div>
           <button className="text-white group flex items-center  px-2  md:text-xl py-2  md:py-3 border-2 bg-pink-600 border-pink-600 hover:bg-transparent hover:text-pink-600 rounded-xl">

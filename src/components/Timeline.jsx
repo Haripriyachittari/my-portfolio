@@ -43,7 +43,7 @@ const Timeline = () => {
                 Software Engineer
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                Accenture Solutions Pvt Ltd.
+                Accenture Solutions Pvt Ltd. Bengaluru,Karnataka
               </h4>
               <p>
                 Frontend development,Managing UI,Reusable components,Building
@@ -69,7 +69,9 @@ const Timeline = () => {
               <h3 className="vertical-timeline-element-title font-bold">
                 National Institute of Engineering (NIE)
               </h3>
-              <h4 className="vertical-timeline-element-subtitle">Mysore</h4>
+              <h4 className="vertical-timeline-element-subtitle">
+                Mysore,Karnataka
+              </h4>
               <p>
                 Completed Bachelor of Engineering in Electronics and
                 Communication.
@@ -93,7 +95,9 @@ const Timeline = () => {
               <h3 className="vertical-timeline-element-title font-bold">
                 Alva's PU college
               </h3>
-              <h4 className="vertical-timeline-element-subtitle">Mangaluru</h4>
+              <h4 className="vertical-timeline-element-subtitle">
+                Mangaluru,Karnataka
+              </h4>
               <p>Completed Pre-university education in PCMB.</p>
             </VerticalTimelineElement>
           </VerticalTimeline>

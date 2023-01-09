@@ -3,7 +3,7 @@ import { FaBars, FaTimes, FaLinkedin,FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import { Link } from "react-scroll";
-import resume from '../assets/HARIPRIYA_CV_Resume.pdf'
+import resume from '../assets/Haripriya_Resume1.pdf'
 
 
 const Navbar = () => {
